@@ -16,7 +16,7 @@ const UserDetails = ()=>{
             <p>Email: {user.email}</p>
             <p>Phone: {user.phone}</p>
             <p>Website: {user.website}</p>
-        </div> : <div>Loading...</div>
+        </div> : <div><p>Loading...</p></div>
             }
         </div>
         
