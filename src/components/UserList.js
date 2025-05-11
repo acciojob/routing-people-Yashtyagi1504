@@ -17,8 +17,10 @@ const UserList  = ()=>{
     }
 
     return(
-        <ul>
+        <div>
             <h1>User List</h1>
+                    <ul>
+            
             {
                 names.map(name=>{
                    return <li key={name.id}>
@@ -33,6 +35,8 @@ const UserList  = ()=>{
                 })
             }
         </ul>
+        </div>
+
     )
 }
 
