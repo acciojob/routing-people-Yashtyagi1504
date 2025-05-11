@@ -17,7 +17,7 @@ const UserList  = ()=>{
             {
                 names.map(name=>{
                    return <li key={name.id}>
-                            <Link to = {`/users/${name.id}`}> {name.name}</Link>
+                            <a href = {`/users/${name.id}`}> {name.name}</a>
                         </li>
                 })
             }
