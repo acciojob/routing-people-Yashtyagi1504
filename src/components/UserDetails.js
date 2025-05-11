@@ -12,11 +12,11 @@ const UserDetails = ()=>{
             {
                 Object.keys(user).length !== 0 ? <div>
             <p>Name: {user.name}</p>
-            <p>UserName: {user.username}</p>
+            <p>Username: {user.username}</p>
             <p>Email: {user.email}</p>
             <p>Phone: {user.phone}</p>
             <p>Website: {user.website}</p>
-        </div> : <p>Loading...</p>
+        </div> : <div>Loading...</div>
             }
         </div>
         
